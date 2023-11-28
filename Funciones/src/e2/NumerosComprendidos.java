@@ -6,7 +6,8 @@ public class NumerosComprendidos {
 		int contador = n1>n2?n2:n1;
 		int contador2 = n1<n2?n2:n1;
 		while (contador<=contador2) {
+		System.out.println(contador);
 		contador++;
-	}
+		}
 	return contador;
 }}

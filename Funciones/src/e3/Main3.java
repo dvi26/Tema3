@@ -1,8 +1,8 @@
-package e2;
+package e3;
 
 import java.util.Scanner;
 
-public class Main2 {
+public class Main3 {
 
 	public static void main(String[] args) {
 		int n1, n2;
@@ -11,10 +11,9 @@ public class Main2 {
 		n1=sc.nextInt();
 		System.out.println("Introduzca otro numero");
 		n2=sc.nextInt();
-		int contador = NumerosComprendidos.nComprendidos(n1, n2);
-		
-		
-				
+		int contador = NumMaximo.nMaximo(n1, n2);
+		System.out.println(contador);
+		sc.close();
 	}
 
 }
